@@ -1,16 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. installo il progetto da terminale con il comando `npm create vite@latest . -- --template react`
+2. faccio `npm i` `npm run dev`
+3. pulisco il progetto dagli svg nella cartella public e negli assets
+4. elimino il css e svuoto il file App.jsx
+5. installo bootstrap con `npm i bootstrap` e lo importo globalmente nel main con `import 'bootstrap/dist/css/bootstrap.min.css'`
+6. per la gestione delle rotte in React installo il pacchetto `npm i react-router-dom`
+7. creo la cartella components per andarci poi a inserire i componenti
+8. creo il file `Header.jsx` e lo inserisco dentro a components
+9. scrivo l'header, in export default function header
+10. importo l'header in app.jsx
+11. scrivo il css per l'header e creo la cartella css in src

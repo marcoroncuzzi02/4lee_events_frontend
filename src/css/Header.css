@@ -1,0 +1,48 @@
+.logo-4lee {
+  display: block;
+  width: 240px;        /* dimensione base su schermi grandi */
+  height: auto;
+  transform: scale(2); /* ingrandisce il disegno dell'SVG */
+  transform-origin: center;
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+
+/* Allineamento perfetto nel brand */
+.navbar-brand {
+  padding: 0;
+  line-height: 0;
+}
+
+/* ====== RESPONSIVE ====== */
+
+/* Tablet orizzontale / Laptop medio (max 1200px) */
+@media (max-width: 1200px) {
+  .logo-4lee {
+    width: 200px;
+    transform: scale(1.8);
+  }
+}
+
+/* Tablet verticale (max 992px) */
+@media (max-width: 992px) {
+  .logo-4lee {
+    width: 160px;
+    transform: scale(1.6);
+  }
+}
+
+/* Smartphone grande (max 768px) */
+@media (max-width: 768px) {
+  .logo-4lee {
+    width: 120px;
+    transform: scale(1.4);
+  }
+}
+
+/* Smartphone piccolo (max 576px) */
+@media (max-width: 576px) {
+  .logo-4lee {
+    width: 100px;
+    transform: scale(1.2);
+  }
+}
