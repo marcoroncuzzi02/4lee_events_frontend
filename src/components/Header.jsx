@@ -12,7 +12,7 @@ export default function Header() {
         </div>
         <div className="container d-flex justify-content-center mt-4">
           <NavLink to={'/'} className="nav-item nav-link">
-              <span>Home</span>
+              <h1>Home</h1>
           </NavLink> 
         </div>
       </nav>
