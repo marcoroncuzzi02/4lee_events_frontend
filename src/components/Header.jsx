@@ -1,4 +1,5 @@
 import '../css/Header.css';
+import {NavLink} from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -10,9 +11,9 @@ export default function Header() {
           </a>
         </div>
         <div className="container d-flex justify-content-center mt-4">
-            <a href="#">
-                <span>Home</span>
-            </a>
+          <NavLink to={'/'} className="nav-item nav-link">
+              <span>Home</span>
+          </NavLink> 
         </div>
       </nav>
     </header>
